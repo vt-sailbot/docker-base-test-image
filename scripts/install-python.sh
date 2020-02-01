@@ -18,8 +18,8 @@ apt-get install -y make
 mkdir -p /tmp/py-transient
 cd /tmp/py-transient
 
-wget https://www.python.org/ftp/python/3.5.7/Python-3.5.7.tgz
-tar -xzf Python-3.5.7.tgz
+wget https://www.python.org/ftp/python/3.5.7/Python-3.5.7.tar.xz
+tar -xf Python-3.5.7.tar.xz
 cd Python-3.5.7
 ./configure
 make
